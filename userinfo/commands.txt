@@ -1,0 +1,2 @@
+docker build --tag user-info .
+docker run --publish 5000:5000 user-info
